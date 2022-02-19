@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 h1 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 50px;
+}
+.mamun {
+    color: #ff8400;
 }
 .color{
     color:#FF9F35;
@@ -19,12 +24,18 @@ section {
     padding-left: 5%;
 }
 .width img {
-    width: 80%;
+    width: 75%;
+    margin-top: 40px;
 }
 .btn-ctn {
     text-decoration: none;
-    background-color: #FF9F35;
+    background:#FF9F35;
     color: #fff;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+#header {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
 }
