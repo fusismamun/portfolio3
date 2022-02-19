@@ -10,11 +10,6 @@ h1 {
     font-weight: 700;
     font-size: 50px;
 }
-
-h2{
-    font-weight: 700;
-    font-size: 50px;
-}
 .mamun {
     color: #ff8400;
 }
@@ -23,7 +18,6 @@ h2{
 }
 section {
     display: flex;
-    margin-bottom: 150px;
 }
 .width {
     width: 50%;
@@ -33,35 +27,15 @@ section {
     width: 75%;
     margin-top: 40px;
 }
-.btn-ctn  {
+.btn-ctn {
     text-decoration: none;
     background:#FF9F35;
     color: #fff;
     padding: 10px 40px;
     border-radius: 5px;
-    
 }
 
-#header {
+.header {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
-}
-
-#second {
-    background-image: url(img/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.img2 img {
-    width: 75%;
-}
-.text {
-    width: 50%;
-}
-.text p {
-    color: dimgray;
-}
-.develop {
-    color: #ff8400;
 }
